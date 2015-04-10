@@ -1,0 +1,38 @@
+table tr:nth-child(odd) td{
+background-color: #ffffff;}
+table tr:nth-child(even) td{
+background-color: #dddddd;}
+
+table {
+	border-width: 1px 1px 0px 1px;
+	border-spacing: 0px;
+	border-collapse: separate;
+	background-color: white;
+}
+
+td {
+	border-width: 0px 0px 1px 0px;
+	padding: 1px 1px 1px 1px;
+	text-align: center;
+	-moz-border-radius: 0px 0px 0px 0px;
+
+}
+tr.ok {
+	color:black;
+}
+
+tr.kanskje {
+	color:red;
+}
+tr.dass {
+	color:maroon;
+}
+tr.wtf {
+	color:purple;
+}
+th {
+	border-width: 0px 0px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
